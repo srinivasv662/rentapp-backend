@@ -1,0 +1,8 @@
+server:
+  port: ${PORT}
+
+spring:
+  application:
+    name: rentpay-management
+  profiles:
+    active: ${ACTIVE_PROFILE}
